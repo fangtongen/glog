@@ -5,7 +5,7 @@ project (glog
   HOMEPAGE_URL https://github.com/google/glog
   LANGUAGES CXX
 )
-
+set(CMAKE_CXX_STANDARD 17)
 set (CPACK_PACKAGE_NAME glog)
 set (CPACK_PACKAGE_DESCRIPTION_SUMMARY "Google logging library")
 set (CPACK_PACKAGE_VERSION_MAJOR ${glog_VERSION_MAJOR})
